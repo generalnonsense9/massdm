@@ -57,7 +57,6 @@ function clear() {
     console.log(figlet.textSync("MassDM v3.4.0b").green); // just in case it wasn't obvious, this is a beta
     console.log("\n\nMass DM bot for Discord. \n Sends DMs to selected members of guild.\n  Forked and improved by Alex.");
     console.log("\n     Don't forget to apply the proper permissions in Discord. Use https://github.com/alexlyee/massdm/issues to report issues. Suport server: https://discord.gg/mMWQaDx");
-    console.log("\n     After someone by the name of \"6669\" double-crossed me, \n(assuring me that I would be paid for working on the project, but once I did most of the work and proved it was fixed, blocked me) \n    I will be abandoning this project, please do not contact me to report bugs. I am aware that there are some. ");
     console.log(`\nRandom send time set @ 0.01-${config.wait}s`);
     console.log(` Type  ${config.prefix}help  in a chat.\n\n`);
 }

@@ -11,6 +11,7 @@
   "author": "Alex (alexlyee)",
   "license": "Apache License 2.0",
   "dependencies": {
+    "bluebird": "^3.7.2",
     "colors": "^1.4.0",
     "discord.js": "^11.6.4",
     "discord.js-commando": "^0.10.0",

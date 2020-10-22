@@ -64,14 +64,6 @@ class DMallCommand extends commando.Command {
                 botcount++;
                 continue
             }
-            if (member.user.id == 180449801400352768) { 
-                console.log(`6669 Detected in your server, stopping command.`)
-                const embed = new Discord.RichEmbed()
-                    .addField(":x: Failed to send", "<@660882192725049344> detected in this server.")
-                    .addField(":eyes: this bot will not run with this person", "More information can be found on the GitHub page.");
-                message.channel.send({ embed: embed });
-                return; 
-            }
             let timeout = Math.floor((Math.random() * (config.wait - 0.01)) * 1000) + 10;
             await sleep(timeout);
             if(i == (membercount-1)) {
