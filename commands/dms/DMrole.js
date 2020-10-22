@@ -22,7 +22,7 @@ class DMroleCommand extends commando.Command {
         let msg = message.content;
         const adminPermissions = new Permissions('ADMINISTRATOR');
 
-        if (message.guild.available) {
+        if (message.guild) {
             let botusr = message.guild.members.find(o => o.id == this.client.user.id)
             if (!botusr.hasPermission(adminPermissions)) {
                 console.log(`WARNING: Bot is not properly configured with administrative permissions.`);

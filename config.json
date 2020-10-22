@@ -3,5 +3,5 @@
   "prefix": "mass!",
   "id": "180449801400352768",
   "wait": "10",
-  "concurrency": 3
+  "concurrency": 1
 }
